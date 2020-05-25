@@ -1,0 +1,32 @@
+.contenedorFlexImg{
+    border-top: solid 4px grey;
+    border-bottom: solid 4px grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.imagenesGaleria{
+    max-width: 100%;
+    height: 100%;
+    margin-right: 3px;
+    margin-top: 8px;
+}
+.imagenesGaleria:hover{
+    border: solid 2px grey;
+    
+}
+
+.tituloGaleria{
+    color: grey;
+    margin-left: 10px;
+}
+
+.nombrePersonajes{
+    text-align: center;
+}
+
+.nombrePersonajes:hover{
+font-weight: bold;
+}

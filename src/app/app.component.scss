@@ -1,0 +1,45 @@
+*{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-content: center;
+    height: 10vh;
+    
+
+}
+h1{
+    padding-left: 10px;
+    color: grey;
+    
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: right;
+    background-color: grey;
+    justify-content: end;    
+    border-radius: 8px;
+    margin-bottom: 8px;
+    
+}
+nav p{
+    padding-right: 50px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    align-content: center;
+
+    height: 5vh;
+    background-color: grey;
+    color: white;
+}
+
+footer p{
+    padding-left: 20px;
+}
